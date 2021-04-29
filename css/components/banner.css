@@ -1,0 +1,37 @@
+.banner {
+  padding: 100px;
+  background-size: cover;
+}
+
+.btn-red {
+  background-color: #F6755E;
+  padding: 16px 48px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .1em;
+  transition-duration: .4s;
+  font-family: 'Original Surfer', cursive;
+  font-size: 24px;
+}
+  
+.banner a:hover {
+  background-color: #F78A76;
+  transition-duration: .4s;
+}
+
+.banner p {
+  padding-bottom: 24px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.banner p {
+  color: white;
+  opacity: .8;
+  font-size: 24px;
+}

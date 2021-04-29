@@ -1,0 +1,43 @@
+.footer {
+  background-color:rgba(80, 80, 80, .9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.list-inline-icons {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-inline-icons li {
+  display: inline-block;
+  text-align: center;
+}
+
+.list-inline-icons li a {
+  font-size: 48px;
+  color: #F6755E;
+}
+
+.list-inline-icons li a:hover {
+  color: #F78A76;
+  transition-duration: .4s;
+}
+
+.footer p {
+  font-size: 16px;
+  color: white;
+  opacity: .6;
+  font-family: 'Dancing Script', cursive;
+}
+
+.heart-icon {
+  color: #F6755E;
+}
+
